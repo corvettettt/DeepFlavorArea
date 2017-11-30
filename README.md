@@ -44,4 +44,6 @@ git clone https://github.com/corvettettt/DeepFlavorArea.git CMSDIJET/
 
 scram b -j 4
 
+# Run 
 
+cmsRun CMSDIJET/DijetRootTreeMaker/prod/flat-MC-cfg_miniAOD.py
