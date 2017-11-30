@@ -1,6 +1,5 @@
 # Installation (CMSSW 8_0_25)
 
-============
 
 cmsrel CMSSW_8_0_25
 cd CMSSW_8_0_25/src/
@@ -8,17 +7,14 @@ cmsenv
 git cms-init
 git clone https://github.com/CMSDeepFlavour/DeepNTuples
 
-============
 
 # Add JetToolBox
 
-============
 
 cd DeepNTuples
 git submodule init
 git submodule update
 
-============
 
 # Add DeepFlavour
 
@@ -29,7 +25,6 @@ cd RecoBTag/DeepFlavour/data/
 wget http://home.fnal.gov/~verzetti//DeepFlavour/training/DeepFlavourNoSL.json
 cd -
 
-============
 
 # compile
 
@@ -37,5 +32,4 @@ git clone https://github.com/corvettettt/DeepFlavorArea.git
 
 scram b -j 4
 
-============
 
