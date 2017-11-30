@@ -40,7 +40,7 @@ cd -
 
 # compile
 
-git clone https://github.com/corvettettt/DeepFlavorArea.git
+git clone https://github.com/corvettettt/DeepFlavorArea.git CMSDIJET/
 
 scram b -j 4
 
