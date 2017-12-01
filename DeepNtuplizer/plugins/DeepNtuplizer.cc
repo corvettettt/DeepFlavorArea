@@ -118,8 +118,8 @@ DeepNtuplizer::DeepNtuplizer(const edm::ParameterSet& iConfig):
      */
 
     // read configuration parameters
-    const double jetR = iConfig.getParameter<double>("jetR");
-    const bool  runFatJets_ = iConfig.getParameter<bool>("runFatJet");
+//    const double jetR = iConfig.getParameter<double>("jetR");
+//    const bool  runFatJets_ = iConfig.getParameter<bool>("runFatJet");
 
     //not implemented yet
 
@@ -132,7 +132,6 @@ DeepNtuplizer::DeepNtuplizer(const edm::ParameterSet& iConfig):
     addModule(jetinfo);
 
 
-    }
     /*
      *
      * Modules initialized
