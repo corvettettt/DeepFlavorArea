@@ -46,6 +46,8 @@ bool ntuple_JetInfo::fillBranches(const pat::Jet & jet, const size_t& jetidx, co
     /// cuts ///
     bool returnval=true;
 
+    if ( jet.pt() < 20 ||  jet.pt() > 1000 ) returnval=false;
+    if ( fabs(jet.eta()) < 0 || fabs(jet.eta()) > 2.5 ) returnval=false;
 
 
     //branch fills

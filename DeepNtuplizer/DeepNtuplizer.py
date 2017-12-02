@@ -1,4 +1,5 @@
 
+
 import FWCore.ParameterSet.Config as cms
 
 import FWCore.ParameterSet.VarParsing as VarParsing
@@ -133,8 +134,8 @@ updateJetCollection(
         jetSource = cms.InputTag('slimmedJets'),  # 'ak4Jets'
         jetCorrections = jetCorrectionsAK4,
         pfCandidates = cms.InputTag('packedPFCandidates'),
-        pvSource = cms.InputTag("offlineSlimmedPrimaryVertices"),
-        svSource = cms.InputTag('slimmedSecondaryVertices'),
+#        pvSource = cms.InputTag("offlineSlimmedPrimaryVertices"),
+#        svSource = cms.InputTag('slimmedSecondaryVertices'),
         btagInfos = bTagInfos,
         btagDiscriminators = bTagDiscriminators,
         explicitJTA = False
