@@ -1,5 +1,3 @@
-# DeepNTuples
-NTuple framework for DeepFlavour
 
 Installation (CMSSW 8_0_25)
 ============
